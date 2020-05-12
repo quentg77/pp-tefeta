@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/script.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "docker-build": "docker build -f Dockerfile ."
   },
   "dependencies": {
     "@types/node": "^13.13.5",
