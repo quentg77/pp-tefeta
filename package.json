@@ -1,0 +1,17 @@
+{
+  "name": "pp-tefeta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/quentg77/pp-tefeta.git",
+  "author": "QuentinGuichaoua <39485623+quentg77@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/script.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^13.13.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
